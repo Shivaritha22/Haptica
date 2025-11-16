@@ -1,13 +1,13 @@
 # Haptica
-ML model to translate music into haptics with Arduino Nano and coin vibrator. 
 
-# Haptica
-
-ML model to translate music into haptics using an Arduino Nano and coin vibration motors.
+ML model to translate music into haptics using an Arduino Nano and coin vibration.
 
 ---
 
-## 1. Why Haptica?
+## 1. What is Haptica? Why Haptica?
+
+Haptica: A tiny depthwise-separable CNN running on an Arduino Nano that turns music into vibration patterns for a haptic listening experience.
+
 
 Do you listen to music blasting on speakers for the full-body vibe?  
 Or with earphones to disappear into your own world?
