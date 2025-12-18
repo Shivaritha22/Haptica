@@ -1,0 +1,301 @@
+# Haptic Translator Inference Log
+# Started: 2025-12-05 20:54:30
+# ============================================================
+
+[2025-12-05 20:54:30] INFO: ============================================================
+[2025-12-05 20:54:30] INFO: HAPTIC TRANSLATOR - INFERENCE STARTED
+[2025-12-05 20:54:30] INFO: ============================================================
+[2025-12-05 20:54:30] INFO: Keyboard control: SPACE=pause/resume, S=stop
+[2025-12-05 20:54:32] INFO: Loaded song: song1.mp3 (256.16s, 16000Hz)
+[2025-12-05 20:54:32] INFO: Mel spectrogram computed: 32 mels × 25617 frames
+[2025-12-05 20:54:35] INFO: Distinct patterns created: Heartbeat (Low), Zigzag (Mid), Beat Pulses (High)
+[2025-12-05 20:54:35] INFO: 
+============================================================
+[2025-12-05 20:54:35] INFO: GENERATING VISUALIZATIONS
+[2025-12-05 20:54:35] INFO: ============================================================
+[2025-12-05 20:54:37] INFO: 
+============================================================
+[2025-12-05 20:54:37] INFO: CONNECTING TO ARDUINO
+[2025-12-05 20:54:37] INFO: ============================================================
+[2025-12-05 20:54:39] INFO: Serial connected: COM5
+[2025-12-05 20:54:39] INFO: 
+============================================================
+[2025-12-05 20:54:39] INFO: MOTOR CHECK SEQUENCE
+[2025-12-05 20:54:39] INFO: ============================================================
+[2025-12-05 20:54:39] INFO: Testing 
+[2025-12-05 20:54:43] INFO: test complete
+[2025-12-05 20:54:53] INFO: Motor check sequence complete!
+[2025-12-05 20:54:53] INFO: ============================================================
+
+[2025-12-05 20:54:58] INFO: Countdown synchronization complete
+[2025-12-05 20:54:59] INFO: Audio playback started
+[2025-12-05 20:54:59] INFO: 
+============================================================
+[2025-12-05 20:54:59] INFO: RUNNING INFERENCE
+[2025-12-05 20:54:59] INFO: ============================================================
+[2025-12-05 20:54:59] INFO: Total windows: 25598
+[2025-12-05 20:54:59] INFO: Output rate: 100.0 Hz
+[2025-12-05 20:54:59] INFO: Estimated duration: 255.98 s
+[2025-12-05 20:54:59] INFO: 
+[2025-12-05 20:54:59] INFO: 📡 Serial communication: ACTIVE
+[2025-12-05 20:54:59] INFO: 🎵 Song playing
+[2025-12-05 20:54:59] INFO: 🎹 Vibrations active
+[2025-12-05 20:54:59] INFO: 
+[2025-12-05 20:54:59] INFO: Controls: SPACE = pause/resume, S = stop
+[2025-12-05 20:54:59] INFO: 
+[2025-12-05 20:54:59] INFO: Window 0: Inference=[114.000, 101.000, 85.000] Patterns=[L:0.00(heartbeat) M:0.03(zigzag) H:0.30(beat)] → Final=[0.000, 1.000, 1.000] → PWM=[  0, 254, 254]
+[2025-12-05 20:54:59] INFO: Progress: 0.0% (0/25598 windows, 0.0s) - L=  0 M=254 H=254
+[2025-12-05 20:54:59] INFO: Window 1: Inference=[114.000, 101.000, 85.000] Patterns=[L:0.30(heartbeat) M:0.00(zigzag) H:0.30(beat)] → Final=[1.000, 0.000, 1.000] → PWM=[254,   0, 254]
+[2025-12-05 20:54:59] INFO: Window 2: Inference=[114.000, 101.000, 85.000] Patterns=[L:0.30(heartbeat) M:0.03(zigzag) H:0.30(beat)] → Final=[1.000, 1.000, 1.000] → PWM=[254, 254, 254]
+[2025-12-05 20:54:59] INFO: Window 3: Inference=[114.000, 101.000, 85.000] Patterns=[L:0.30(heartbeat) M:0.06(zigzag) H:0.30(beat)] → Final=[1.000, 1.000, 1.000] → PWM=[254, 254, 254]
+[2025-12-05 20:54:59] INFO: Window 4: Inference=[114.000, 101.000, 85.000] Patterns=[L:0.30(heartbeat) M:0.09(zigzag) H:0.30(beat)] → Final=[1.000, 1.000, 1.000] → PWM=[254, 254, 254]
+[2025-12-05 20:54:59] INFO: Window 5: Inference=[114.000, 101.000, 85.000] Patterns=[L:0.30(heartbeat) M:0.12(zigzag) H:0.30(beat)] → Final=[1.000, 1.000, 1.000] → PWM=[254, 254, 254]
+[2025-12-05 20:54:59] INFO: Window 6: Inference=[114.000, 101.000, 85.000] Patterns=[L:0.30(heartbeat) M:0.15(zigzag) H:0.30(beat)] → Final=[1.000, 1.000, 1.000] → PWM=[254, 254, 254]
+[2025-12-05 20:54:59] INFO: Window 7: Inference=[114.000, 101.000, 85.000] Patterns=[L:0.30(heartbeat) M:0.18(zigzag) H:0.30(beat)] → Final=[1.000, 1.000, 1.000] → PWM=[254, 254, 254]
+[2025-12-05 20:54:59] INFO: Window 8: Inference=[114.000, 101.000, 85.000] Patterns=[L:0.30(heartbeat) M:0.21(zigzag) H:0.00(beat)] → Final=[1.000, 1.000, 0.000] → PWM=[254, 254,   0]
+[2025-12-05 20:54:59] INFO: Window 9: Inference=[114.000, 101.000, 85.000] Patterns=[L:0.30(heartbeat) M:0.24(zigzag) H:0.00(beat)] → Final=[1.000, 1.000, 0.000] → PWM=[254, 254,   0]
+[2025-12-05 20:54:59] INFO: Window 10: Inference=[114.000, 101.000, 85.000] Patterns=[L:0.30(heartbeat) M:0.27(zigzag) H:0.00(beat)] → Final=[1.000, 1.000, 0.000] → PWM=[254, 254,   0]
+[2025-12-05 20:54:59] INFO: Window 11: Inference=[114.000, 101.000, 85.000] Patterns=[L:0.30(heartbeat) M:0.30(zigzag) H:0.00(beat)] → Final=[1.000, 1.000, 0.000] → PWM=[254, 254,   0]
+[2025-12-05 20:54:59] INFO: Window 12: Inference=[114.000, 101.000, 85.000] Patterns=[L:0.30(heartbeat) M:0.27(zigzag) H:0.00(beat)] → Final=[1.000, 1.000, 0.000] → PWM=[254, 254,   0]
+[2025-12-05 20:54:59] INFO: Window 13: Inference=[114.000, 101.000, 85.000] Patterns=[L:0.30(heartbeat) M:0.24(zigzag) H:0.00(beat)] → Final=[1.000, 1.000, 0.000] → PWM=[254, 254,   0]
+[2025-12-05 20:54:59] INFO: Window 14: Inference=[114.000, 101.000, 85.000] Patterns=[L:0.30(heartbeat) M:0.21(zigzag) H:0.00(beat)] → Final=[1.000, 1.000, 0.000] → PWM=[254, 254,   0]
+[2025-12-05 20:54:59] INFO: Window 15: Inference=[114.000, 101.000, 85.000] Patterns=[L:0.30(heartbeat) M:0.18(zigzag) H:0.00(beat)] → Final=[1.000, 1.000, 0.000] → PWM=[254, 254,   0]
+[2025-12-05 20:54:59] INFO: Window 16: Inference=[114.000, 101.000, 85.000] Patterns=[L:0.00(heartbeat) M:0.15(zigzag) H:0.00(beat)] → Final=[0.000, 1.000, 0.000] → PWM=[  0, 254,   0]
+[2025-12-05 20:54:59] INFO: Window 17: Inference=[114.000, 101.000, 85.000] Patterns=[L:0.00(heartbeat) M:0.12(zigzag) H:0.00(beat)] → Final=[0.000, 1.000, 0.000] → PWM=[  0, 254,   0]
+[2025-12-05 20:54:59] INFO: Window 18: Inference=[114.000, 101.000, 85.000] Patterns=[L:0.00(heartbeat) M:0.09(zigzag) H:0.00(beat)] → Final=[0.000, 1.000, 0.000] → PWM=[  0, 254,   0]
+[2025-12-05 20:54:59] INFO: Window 19: Inference=[114.000, 101.000, 85.000] Patterns=[L:0.00(heartbeat) M:0.06(zigzag) H:0.00(beat)] → Final=[0.000, 1.000, 0.000] → PWM=[  0, 254,   0]
+[2025-12-05 20:54:59] INFO: Window 50: Inference=[114.000, 101.000, 85.000] Patterns=[L:0.00(heartbeat) M:0.27(zigzag) H:0.00(beat)] → Final=[0.000, 1.000, 0.000] → PWM=[  0, 254,   0]
+[2025-12-05 20:55:00] INFO: Window 100: Inference=[114.000, 101.000, 85.000] Patterns=[L:0.00(heartbeat) M:0.03(zigzag) H:0.00(beat)] → Final=[0.000, 1.000, 0.000] → PWM=[  0, 254,   0]
+[2025-12-05 20:55:00] INFO: Progress: 0.4% (100/25598 windows, 1.0s) - L=  0 M=254 H=  0
+[2025-12-05 20:55:00] INFO: Window 150: Inference=[114.000, 101.000, 85.000] Patterns=[L:0.00(heartbeat) M:0.27(zigzag) H:0.00(beat)] → Final=[0.000, 1.000, 0.000] → PWM=[  0, 254,   0]
+[2025-12-05 20:55:01] INFO: Window 200: Inference=[114.000, 101.000, 85.000] Patterns=[L:0.00(heartbeat) M:0.03(zigzag) H:0.00(beat)] → Final=[0.000, 1.000, 0.000] → PWM=[  0, 254,   0]
+[2025-12-05 20:55:01] INFO: Progress: 0.8% (200/25598 windows, 2.0s) - L=  0 M=254 H=  0
+[2025-12-05 20:55:01] INFO: Window 250: Inference=[114.000, 101.000, 85.000] Patterns=[L:0.00(heartbeat) M:0.27(zigzag) H:0.00(beat)] → Final=[0.000, 1.000, 0.000] → PWM=[  0, 254,   0]
+[2025-12-05 20:55:02] INFO: Window 300: Inference=[114.000, 101.000, 85.000] Patterns=[L:0.00(heartbeat) M:0.03(zigzag) H:0.00(beat)] → Final=[0.000, 1.000, 0.000] → PWM=[  0, 254,   0]
+[2025-12-05 20:55:02] INFO: Progress: 1.2% (300/25598 windows, 3.0s) - L=  0 M=254 H=  0
+[2025-12-05 20:55:02] INFO: Window 350: Inference=[114.000, 101.000, 85.000] Patterns=[L:0.30(heartbeat) M:0.27(zigzag) H:0.00(beat)] → Final=[1.000, 1.000, 0.000] → PWM=[254, 254,   0]
+[2025-12-05 20:55:03] INFO: Window 400: Inference=[114.000, 101.000, 85.000] Patterns=[L:0.00(heartbeat) M:0.03(zigzag) H:0.00(beat)] → Final=[0.000, 1.000, 0.000] → PWM=[  0, 254,   0]
+[2025-12-05 20:55:03] INFO: Progress: 1.6% (400/25598 windows, 4.0s) - L=  0 M=254 H=  0
+[2025-12-05 20:55:03] INFO: Window 450: Inference=[114.000, 101.000, 85.000] Patterns=[L:0.00(heartbeat) M:0.27(zigzag) H:0.00(beat)] → Final=[0.000, 1.000, 0.000] → PWM=[  0, 254,   0]
+[2025-12-05 20:55:04] INFO: Window 500: Inference=[114.000, 101.000, 85.000] Patterns=[L:0.00(heartbeat) M:0.03(zigzag) H:0.00(beat)] → Final=[0.000, 1.000, 0.000] → PWM=[  0, 254,   0]
+[2025-12-05 20:55:04] INFO: Progress: 2.0% (500/25598 windows, 5.0s) - L=  0 M=254 H=  0
+[2025-12-05 20:55:04] INFO: Window 550: Inference=[114.000, 101.000, 85.000] Patterns=[L:0.00(heartbeat) M:0.27(zigzag) H:0.00(beat)] → Final=[0.000, 1.000, 0.000] → PWM=[  0, 254,   0]
+[2025-12-05 20:55:05] INFO: Window 600: Inference=[114.000, 101.000, 85.000] Patterns=[L:0.00(heartbeat) M:0.03(zigzag) H:0.00(beat)] → Final=[0.000, 1.000, 0.000] → PWM=[  0, 254,   0]
+[2025-12-05 20:55:05] INFO: Progress: 2.3% (600/25598 windows, 6.0s) - L=  0 M=254 H=  0
+[2025-12-05 20:55:05] INFO: Window 650: Inference=[114.000, 101.000, 85.000] Patterns=[L:0.00(heartbeat) M:0.27(zigzag) H:0.00(beat)] → Final=[0.000, 1.000, 0.000] → PWM=[  0, 254,   0]
+[2025-12-05 20:55:06] INFO: Window 700: Inference=[114.000, 101.000, 85.000] Patterns=[L:0.00(heartbeat) M:0.03(zigzag) H:0.00(beat)] → Final=[0.000, 1.000, 0.000] → PWM=[  0, 254,   0]
+[2025-12-05 20:55:06] INFO: Progress: 2.7% (700/25598 windows, 7.0s) - L=  0 M=254 H=  0
+[2025-12-05 20:55:06] INFO: Window 750: Inference=[114.000, 101.000, 85.000] Patterns=[L:0.00(heartbeat) M:0.27(zigzag) H:0.00(beat)] → Final=[0.000, 1.000, 0.000] → PWM=[  0, 254,   0]
+[2025-12-05 20:55:07] INFO: Window 800: Inference=[114.000, 101.000, 85.000] Patterns=[L:0.00(heartbeat) M:0.03(zigzag) H:0.00(beat)] → Final=[0.000, 1.000, 0.000] → PWM=[  0, 254,   0]
+[2025-12-05 20:55:07] INFO: Progress: 3.1% (800/25598 windows, 8.0s) - L=  0 M=254 H=  0
+[2025-12-05 20:55:07] INFO: Window 850: Inference=[114.000, 101.000, 85.000] Patterns=[L:0.30(heartbeat) M:0.27(zigzag) H:0.00(beat)] → Final=[1.000, 1.000, 0.000] → PWM=[254, 254,   0]
+[2025-12-05 20:55:08] INFO: Window 900: Inference=[114.000, 101.000, 85.000] Patterns=[L:0.00(heartbeat) M:0.03(zigzag) H:0.00(beat)] → Final=[0.000, 1.000, 0.000] → PWM=[  0, 254,   0]
+[2025-12-05 20:55:08] INFO: Progress: 3.5% (900/25598 windows, 9.0s) - L=  0 M=254 H=  0
+[2025-12-05 20:55:08] INFO: Window 950: Inference=[114.000, 101.000, 85.000] Patterns=[L:0.00(heartbeat) M:0.27(zigzag) H:0.00(beat)] → Final=[0.000, 1.000, 0.000] → PWM=[  0, 254,   0]
+[2025-12-05 20:55:09] INFO: Window 1000: Inference=[114.000, 101.000, 85.000] Patterns=[L:0.00(heartbeat) M:0.03(zigzag) H:0.00(beat)] → Final=[0.000, 1.000, 0.000] → PWM=[  0, 254,   0]
+[2025-12-05 20:55:09] INFO: Progress: 3.9% (1000/25598 windows, 10.0s) - L=  0 M=254 H=  0
+[2025-12-05 20:55:09] INFO: Window 1050: Inference=[114.000, 101.000, 85.000] Patterns=[L:0.00(heartbeat) M:0.27(zigzag) H:0.00(beat)] → Final=[0.000, 1.000, 0.000] → PWM=[  0, 254,   0]
+[2025-12-05 20:55:10] INFO: Window 1100: Inference=[114.000, 101.000, 85.000] Patterns=[L:0.00(heartbeat) M:0.03(zigzag) H:0.00(beat)] → Final=[0.000, 1.000, 0.000] → PWM=[  0, 254,   0]
+[2025-12-05 20:55:10] INFO: Progress: 4.3% (1100/25598 windows, 11.0s) - L=  0 M=254 H=  0
+[2025-12-05 20:55:10] INFO: Window 1150: Inference=[114.000, 101.000, 85.000] Patterns=[L:0.30(heartbeat) M:0.27(zigzag) H:0.00(beat)] → Final=[1.000, 1.000, 0.000] → PWM=[254, 254,   0]
+[2025-12-05 20:55:11] INFO: Window 1200: Inference=[114.000, 101.000, 85.000] Patterns=[L:0.00(heartbeat) M:0.03(zigzag) H:0.00(beat)] → Final=[0.000, 1.000, 0.000] → PWM=[  0, 254,   0]
+[2025-12-05 20:55:11] INFO: Progress: 4.7% (1200/25598 windows, 12.0s) - L=  0 M=254 H=  0
+[2025-12-05 20:55:11] INFO: Window 1250: Inference=[114.000, 101.000, 85.000] Patterns=[L:0.00(heartbeat) M:0.27(zigzag) H:0.00(beat)] → Final=[0.000, 1.000, 0.000] → PWM=[  0, 254,   0]
+[2025-12-05 20:55:12] INFO: Window 1300: Inference=[114.000, 101.000, 85.000] Patterns=[L:0.30(heartbeat) M:0.03(zigzag) H:0.00(beat)] → Final=[1.000, 1.000, 0.000] → PWM=[254, 254,   0]
+[2025-12-05 20:55:12] INFO: Progress: 5.1% (1300/25598 windows, 13.0s) - L=254 M=254 H=  0
+[2025-12-05 20:55:12] INFO: Window 1350: Inference=[114.000, 101.000, 85.000] Patterns=[L:0.00(heartbeat) M:0.27(zigzag) H:0.00(beat)] → Final=[0.000, 1.000, 0.000] → PWM=[  0, 254,   0]
+[2025-12-05 20:55:13] INFO: Window 1400: Inference=[114.000, 101.000, 85.000] Patterns=[L:0.00(heartbeat) M:0.03(zigzag) H:0.00(beat)] → Final=[0.000, 1.000, 0.000] → PWM=[  0, 254,   0]
+[2025-12-05 20:55:13] INFO: Progress: 5.5% (1400/25598 windows, 14.0s) - L=  0 M=254 H=  0
+[2025-12-05 20:55:13] INFO: Window 1450: Inference=[114.000, 101.000, 85.000] Patterns=[L:0.00(heartbeat) M:0.27(zigzag) H:0.00(beat)] → Final=[0.000, 1.000, 0.000] → PWM=[  0, 254,   0]
+[2025-12-05 20:55:14] INFO: Window 1500: Inference=[114.000, 101.000, 85.000] Patterns=[L:0.00(heartbeat) M:0.03(zigzag) H:0.00(beat)] → Final=[0.000, 1.000, 0.000] → PWM=[  0, 254,   0]
+[2025-12-05 20:55:14] INFO: Progress: 5.9% (1500/25598 windows, 15.0s) - L=  0 M=254 H=  0
+[2025-12-05 20:55:14] INFO: Window 1550: Inference=[114.000, 101.000, 85.000] Patterns=[L:0.00(heartbeat) M:0.27(zigzag) H:0.00(beat)] → Final=[0.000, 1.000, 0.000] → PWM=[  0, 254,   0]
+[2025-12-05 20:55:15] INFO: Window 1600: Inference=[114.000, 101.000, 85.000] Patterns=[L:0.30(heartbeat) M:0.03(zigzag) H:0.00(beat)] → Final=[1.000, 1.000, 0.000] → PWM=[254, 254,   0]
+[2025-12-05 20:55:15] INFO: Progress: 6.3% (1600/25598 windows, 16.0s) - L=254 M=254 H=  0
+[2025-12-05 20:55:15] INFO: Window 1650: Inference=[114.000, 101.000, 85.000] Patterns=[L:0.00(heartbeat) M:0.27(zigzag) H:0.00(beat)] → Final=[0.000, 1.000, 0.000] → PWM=[  0, 254,   0]
+[2025-12-05 20:55:16] INFO: Window 1700: Inference=[114.000, 101.000, 85.000] Patterns=[L:0.00(heartbeat) M:0.03(zigzag) H:0.00(beat)] → Final=[0.000, 1.000, 0.000] → PWM=[  0, 254,   0]
+[2025-12-05 20:55:16] INFO: Progress: 6.6% (1700/25598 windows, 17.0s) - L=  0 M=254 H=  0
+[2025-12-05 20:55:16] INFO: Window 1750: Inference=[114.000, 101.000, 85.000] Patterns=[L:0.00(heartbeat) M:0.27(zigzag) H:0.00(beat)] → Final=[0.000, 1.000, 0.000] → PWM=[  0, 254,   0]
+[2025-12-05 20:55:17] INFO: Window 1800: Inference=[114.000, 101.000, 85.000] Patterns=[L:0.30(heartbeat) M:0.03(zigzag) H:0.00(beat)] → Final=[1.000, 1.000, 0.000] → PWM=[254, 254,   0]
+[2025-12-05 20:55:17] INFO: Progress: 7.0% (1800/25598 windows, 18.0s) - L=254 M=254 H=  0
+[2025-12-05 20:55:17] INFO: Window 1850: Inference=[114.000, 101.000, 85.000] Patterns=[L:0.00(heartbeat) M:0.27(zigzag) H:0.00(beat)] → Final=[0.000, 1.000, 0.000] → PWM=[  0, 254,   0]
+[2025-12-05 20:55:18] INFO: Window 1900: Inference=[114.000, 101.000, 85.000] Patterns=[L:0.00(heartbeat) M:0.03(zigzag) H:0.00(beat)] → Final=[0.000, 1.000, 0.000] → PWM=[  0, 254,   0]
+[2025-12-05 20:55:18] INFO: Progress: 7.4% (1900/25598 windows, 19.0s) - L=  0 M=254 H=  0
+[2025-12-05 20:55:18] INFO: Window 1950: Inference=[114.000, 101.000, 85.000] Patterns=[L:0.00(heartbeat) M:0.27(zigzag) H:0.00(beat)] → Final=[0.000, 1.000, 0.000] → PWM=[  0, 254,   0]
+[2025-12-05 20:55:19] INFO: Window 2000: Inference=[114.000, 101.000, 85.000] Patterns=[L:0.00(heartbeat) M:0.03(zigzag) H:0.00(beat)] → Final=[0.000, 1.000, 0.000] → PWM=[  0, 254,   0]
+[2025-12-05 20:55:19] INFO: Progress: 7.8% (2000/25598 windows, 20.0s) - L=  0 M=254 H=  0
+[2025-12-05 20:55:19] INFO: Window 2050: Inference=[114.000, 101.000, 85.000] Patterns=[L:0.00(heartbeat) M:0.27(zigzag) H:0.00(beat)] → Final=[0.000, 1.000, 0.000] → PWM=[  0, 254,   0]
+[2025-12-05 20:55:20] INFO: Window 2100: Inference=[114.000, 101.000, 85.000] Patterns=[L:0.00(heartbeat) M:0.03(zigzag) H:0.00(beat)] → Final=[0.000, 1.000, 0.000] → PWM=[  0, 254,   0]
+[2025-12-05 20:55:20] INFO: Progress: 8.2% (2100/25598 windows, 21.0s) - L=  0 M=254 H=  0
+[2025-12-05 20:55:20] INFO: Window 2150: Inference=[114.000, 101.000, 85.000] Patterns=[L:0.30(heartbeat) M:0.27(zigzag) H:0.00(beat)] → Final=[1.000, 1.000, 0.000] → PWM=[254, 254,   0]
+[2025-12-05 20:55:21] INFO: Window 2200: Inference=[114.000, 101.000, 85.000] Patterns=[L:0.00(heartbeat) M:0.03(zigzag) H:0.00(beat)] → Final=[0.000, 1.000, 0.000] → PWM=[  0, 254,   0]
+[2025-12-05 20:55:21] INFO: Progress: 8.6% (2200/25598 windows, 22.0s) - L=  0 M=254 H=  0
+[2025-12-05 20:55:21] INFO: Window 2250: Inference=[114.000, 101.000, 85.000] Patterns=[L:0.00(heartbeat) M:0.27(zigzag) H:0.00(beat)] → Final=[0.000, 1.000, 0.000] → PWM=[  0, 254,   0]
+[2025-12-05 20:55:22] INFO: Window 2300: Inference=[114.000, 101.000, 85.000] Patterns=[L:0.30(heartbeat) M:0.03(zigzag) H:0.00(beat)] → Final=[1.000, 1.000, 0.000] → PWM=[254, 254,   0]
+[2025-12-05 20:55:22] INFO: Progress: 9.0% (2300/25598 windows, 23.0s) - L=254 M=254 H=  0
+[2025-12-05 20:55:22] INFO: Window 2350: Inference=[114.000, 101.000, 85.000] Patterns=[L:0.00(heartbeat) M:0.27(zigzag) H:0.00(beat)] → Final=[0.000, 1.000, 0.000] → PWM=[  0, 254,   0]
+[2025-12-05 20:55:23] INFO: Window 2400: Inference=[114.000, 101.000, 85.000] Patterns=[L:0.00(heartbeat) M:0.03(zigzag) H:0.00(beat)] → Final=[0.000, 1.000, 0.000] → PWM=[  0, 254,   0]
+[2025-12-05 20:55:23] INFO: Progress: 9.4% (2400/25598 windows, 24.0s) - L=  0 M=254 H=  0
+[2025-12-05 20:55:23] INFO: Window 2450: Inference=[114.000, 101.000, 85.000] Patterns=[L:0.30(heartbeat) M:0.27(zigzag) H:0.00(beat)] → Final=[1.000, 1.000, 0.000] → PWM=[254, 254,   0]
+[2025-12-05 20:55:24] INFO: Window 2500: Inference=[114.000, 101.000, 85.000] Patterns=[L:0.00(heartbeat) M:0.03(zigzag) H:0.00(beat)] → Final=[0.000, 1.000, 0.000] → PWM=[  0, 254,   0]
+[2025-12-05 20:55:24] INFO: Progress: 9.8% (2500/25598 windows, 25.0s) - L=  0 M=254 H=  0
+[2025-12-05 20:55:24] INFO: Window 2550: Inference=[114.000, 101.000, 85.000] Patterns=[L:0.00(heartbeat) M:0.27(zigzag) H:0.00(beat)] → Final=[0.000, 1.000, 0.000] → PWM=[  0, 254,   0]
+[2025-12-05 20:55:25] INFO: Window 2600: Inference=[114.000, 101.000, 85.000] Patterns=[L:0.30(heartbeat) M:0.03(zigzag) H:0.00(beat)] → Final=[1.000, 1.000, 0.000] → PWM=[254, 254,   0]
+[2025-12-05 20:55:25] INFO: Progress: 10.2% (2600/25598 windows, 26.0s) - L=254 M=254 H=  0
+[2025-12-05 20:55:25] INFO: Window 2650: Inference=[114.000, 101.000, 85.000] Patterns=[L:0.00(heartbeat) M:0.27(zigzag) H:0.00(beat)] → Final=[0.000, 1.000, 0.000] → PWM=[  0, 254,   0]
+[2025-12-05 20:55:26] INFO: Window 2700: Inference=[114.000, 101.000, 85.000] Patterns=[L:0.00(heartbeat) M:0.03(zigzag) H:0.00(beat)] → Final=[0.000, 1.000, 0.000] → PWM=[  0, 254,   0]
+[2025-12-05 20:55:26] INFO: Progress: 10.5% (2700/25598 windows, 27.0s) - L=  0 M=254 H=  0
+[2025-12-05 20:55:26] INFO: Window 2750: Inference=[114.000, 101.000, 85.000] Patterns=[L:0.30(heartbeat) M:0.27(zigzag) H:0.00(beat)] → Final=[1.000, 1.000, 0.000] → PWM=[254, 254,   0]
+[2025-12-05 20:55:27] INFO: Window 2800: Inference=[114.000, 101.000, 85.000] Patterns=[L:0.00(heartbeat) M:0.03(zigzag) H:0.00(beat)] → Final=[0.000, 1.000, 0.000] → PWM=[  0, 254,   0]
+[2025-12-05 20:55:27] INFO: Progress: 10.9% (2800/25598 windows, 28.0s) - L=  0 M=254 H=  0
+[2025-12-05 20:55:27] INFO: Window 2850: Inference=[114.000, 101.000, 85.000] Patterns=[L:0.00(heartbeat) M:0.27(zigzag) H:0.00(beat)] → Final=[0.000, 1.000, 0.000] → PWM=[  0, 254,   0]
+[2025-12-05 20:55:28] INFO: Window 2900: Inference=[114.000, 101.000, 85.000] Patterns=[L:0.00(heartbeat) M:0.03(zigzag) H:0.30(beat)] → Final=[0.000, 1.000, 1.000] → PWM=[  0, 254, 254]
+[2025-12-05 20:55:28] INFO: Progress: 11.3% (2900/25598 windows, 29.0s) - L=  0 M=254 H=254
+[2025-12-05 20:55:28] INFO: Window 2950: Inference=[114.000, 101.000, 85.000] Patterns=[L:0.30(heartbeat) M:0.27(zigzag) H:0.00(beat)] → Final=[1.000, 1.000, 0.000] → PWM=[254, 254,   0]
+[2025-12-05 20:55:29] INFO: Window 3000: Inference=[114.000, 101.000, 85.000] Patterns=[L:0.00(heartbeat) M:0.03(zigzag) H:0.00(beat)] → Final=[0.000, 1.000, 0.000] → PWM=[  0, 254,   0]
+[2025-12-05 20:55:29] INFO: Progress: 11.7% (3000/25598 windows, 30.0s) - L=  0 M=254 H=  0
+[2025-12-05 20:55:29] INFO: Window 3050: Inference=[114.000, 101.000, 85.000] Patterns=[L:0.00(heartbeat) M:0.27(zigzag) H:0.00(beat)] → Final=[0.000, 1.000, 0.000] → PWM=[  0, 254,   0]
+[2025-12-05 20:55:30] INFO: Window 3100: Inference=[114.000, 101.000, 85.000] Patterns=[L:0.00(heartbeat) M:0.03(zigzag) H:0.00(beat)] → Final=[0.000, 1.000, 0.000] → PWM=[  0, 254,   0]
+[2025-12-05 20:55:30] INFO: Progress: 12.1% (3100/25598 windows, 31.0s) - L=  0 M=254 H=  0
+[2025-12-05 20:55:30] INFO: Window 3150: Inference=[114.000, 101.000, 85.000] Patterns=[L:0.00(heartbeat) M:0.27(zigzag) H:0.00(beat)] → Final=[0.000, 1.000, 0.000] → PWM=[  0, 254,   0]
+[2025-12-05 20:55:31] INFO: Window 3200: Inference=[114.000, 101.000, 85.000] Patterns=[L:0.00(heartbeat) M:0.03(zigzag) H:0.00(beat)] → Final=[0.000, 1.000, 0.000] → PWM=[  0, 254,   0]
+[2025-12-05 20:55:31] INFO: Progress: 12.5% (3200/25598 windows, 32.0s) - L=  0 M=254 H=  0
+[2025-12-05 20:55:31] INFO: Window 3250: Inference=[114.000, 101.000, 85.000] Patterns=[L:0.30(heartbeat) M:0.27(zigzag) H:0.00(beat)] → Final=[1.000, 1.000, 0.000] → PWM=[254, 254,   0]
+[2025-12-05 20:55:32] INFO: Window 3300: Inference=[114.000, 101.000, 85.000] Patterns=[L:0.00(heartbeat) M:0.03(zigzag) H:0.00(beat)] → Final=[0.000, 1.000, 0.000] → PWM=[  0, 254,   0]
+[2025-12-05 20:55:32] INFO: Progress: 12.9% (3300/25598 windows, 33.0s) - L=  0 M=254 H=  0
+[2025-12-05 20:55:32] INFO: Window 3350: Inference=[114.000, 101.000, 85.000] Patterns=[L:0.00(heartbeat) M:0.27(zigzag) H:0.00(beat)] → Final=[0.000, 1.000, 0.000] → PWM=[  0, 254,   0]
+[2025-12-05 20:55:33] INFO: Window 3400: Inference=[114.000, 101.000, 85.000] Patterns=[L:0.30(heartbeat) M:0.03(zigzag) H:0.00(beat)] → Final=[1.000, 1.000, 0.000] → PWM=[254, 254,   0]
+[2025-12-05 20:55:33] INFO: Progress: 13.3% (3400/25598 windows, 34.0s) - L=254 M=254 H=  0
+[2025-12-05 20:55:33] INFO: Window 3450: Inference=[114.000, 101.000, 85.000] Patterns=[L:0.00(heartbeat) M:0.27(zigzag) H:0.00(beat)] → Final=[0.000, 1.000, 0.000] → PWM=[  0, 254,   0]
+[2025-12-05 20:55:34] INFO: Window 3500: Inference=[114.000, 101.000, 85.000] Patterns=[L:0.00(heartbeat) M:0.03(zigzag) H:0.00(beat)] → Final=[0.000, 1.000, 0.000] → PWM=[  0, 254,   0]
+[2025-12-05 20:55:34] INFO: Progress: 13.7% (3500/25598 windows, 35.0s) - L=  0 M=254 H=  0
+[2025-12-05 20:55:34] INFO: Window 3550: Inference=[114.000, 101.000, 85.000] Patterns=[L:0.00(heartbeat) M:0.27(zigzag) H:0.00(beat)] → Final=[0.000, 1.000, 0.000] → PWM=[  0, 254,   0]
+[2025-12-05 20:55:35] INFO: Window 3600: Inference=[114.000, 101.000, 85.000] Patterns=[L:0.00(heartbeat) M:0.03(zigzag) H:0.00(beat)] → Final=[0.000, 1.000, 0.000] → PWM=[  0, 254,   0]
+[2025-12-05 20:55:35] INFO: Progress: 14.1% (3600/25598 windows, 36.0s) - L=  0 M=254 H=  0
+[2025-12-05 20:55:35] INFO: Window 3650: Inference=[114.000, 101.000, 85.000] Patterns=[L:0.00(heartbeat) M:0.27(zigzag) H:0.00(beat)] → Final=[0.000, 1.000, 0.000] → PWM=[  0, 254,   0]
+[2025-12-05 20:55:36] INFO: Window 3700: Inference=[114.000, 101.000, 85.000] Patterns=[L:0.00(heartbeat) M:0.03(zigzag) H:0.30(beat)] → Final=[0.000, 1.000, 1.000] → PWM=[  0, 254, 254]
+[2025-12-05 20:55:36] INFO: Progress: 14.5% (3700/25598 windows, 37.0s) - L=  0 M=254 H=254
+[2025-12-05 20:55:36] INFO: Window 3750: Inference=[114.000, 101.000, 85.000] Patterns=[L:0.00(heartbeat) M:0.27(zigzag) H:0.00(beat)] → Final=[0.000, 1.000, 0.000] → PWM=[  0, 254,   0]
+[2025-12-05 20:55:37] INFO: Window 3800: Inference=[114.000, 101.000, 85.000] Patterns=[L:0.00(heartbeat) M:0.03(zigzag) H:0.00(beat)] → Final=[0.000, 1.000, 0.000] → PWM=[  0, 254,   0]
+[2025-12-05 20:55:37] INFO: Progress: 14.8% (3800/25598 windows, 38.0s) - L=  0 M=254 H=  0
+[2025-12-05 20:55:37] INFO: Window 3850: Inference=[114.000, 101.000, 85.000] Patterns=[L:0.00(heartbeat) M:0.27(zigzag) H:0.00(beat)] → Final=[0.000, 1.000, 0.000] → PWM=[  0, 254,   0]
+[2025-12-05 20:55:38] INFO: Window 3900: Inference=[114.000, 101.000, 85.000] Patterns=[L:0.30(heartbeat) M:0.03(zigzag) H:0.00(beat)] → Final=[1.000, 1.000, 0.000] → PWM=[254, 254,   0]
+[2025-12-05 20:55:38] INFO: Progress: 15.2% (3900/25598 windows, 39.0s) - L=254 M=254 H=  0
+[2025-12-05 20:55:38] INFO: Window 3950: Inference=[114.000, 101.000, 85.000] Patterns=[L:0.00(heartbeat) M:0.27(zigzag) H:0.00(beat)] → Final=[0.000, 1.000, 0.000] → PWM=[  0, 254,   0]
+[2025-12-05 20:55:39] INFO: Window 4000: Inference=[114.000, 101.000, 85.000] Patterns=[L:0.00(heartbeat) M:0.03(zigzag) H:0.00(beat)] → Final=[0.000, 1.000, 0.000] → PWM=[  0, 254,   0]
+[2025-12-05 20:55:39] INFO: Progress: 15.6% (4000/25598 windows, 40.0s) - L=  0 M=254 H=  0
+[2025-12-05 20:55:39] INFO: Window 4050: Inference=[114.000, 101.000, 85.000] Patterns=[L:0.30(heartbeat) M:0.27(zigzag) H:0.00(beat)] → Final=[1.000, 1.000, 0.000] → PWM=[254, 254,   0]
+[2025-12-05 20:55:40] INFO: Window 4100: Inference=[114.000, 101.000, 85.000] Patterns=[L:0.00(heartbeat) M:0.03(zigzag) H:0.00(beat)] → Final=[0.000, 1.000, 0.000] → PWM=[  0, 254,   0]
+[2025-12-05 20:55:40] INFO: Progress: 16.0% (4100/25598 windows, 41.0s) - L=  0 M=254 H=  0
+[2025-12-05 20:55:40] INFO: Window 4150: Inference=[114.000, 101.000, 85.000] Patterns=[L:0.00(heartbeat) M:0.27(zigzag) H:0.00(beat)] → Final=[0.000, 1.000, 0.000] → PWM=[  0, 254,   0]
+[2025-12-05 20:55:41] INFO: Window 4200: Inference=[114.000, 101.000, 85.000] Patterns=[L:0.00(heartbeat) M:0.03(zigzag) H:0.00(beat)] → Final=[0.000, 1.000, 0.000] → PWM=[  0, 254,   0]
+[2025-12-05 20:55:41] INFO: Progress: 16.4% (4200/25598 windows, 42.0s) - L=  0 M=254 H=  0
+[2025-12-05 20:55:41] INFO: Window 4250: Inference=[114.000, 101.000, 85.000] Patterns=[L:0.00(heartbeat) M:0.27(zigzag) H:0.00(beat)] → Final=[0.000, 1.000, 0.000] → PWM=[  0, 254,   0]
+[2025-12-05 20:55:42] INFO: Window 4300: Inference=[114.000, 101.000, 85.000] Patterns=[L:0.00(heartbeat) M:0.03(zigzag) H:0.00(beat)] → Final=[0.000, 1.000, 0.000] → PWM=[  0, 254,   0]
+[2025-12-05 20:55:42] INFO: Progress: 16.8% (4300/25598 windows, 43.0s) - L=  0 M=254 H=  0
+[2025-12-05 20:55:42] INFO: Window 4350: Inference=[114.000, 101.000, 85.000] Patterns=[L:0.00(heartbeat) M:0.27(zigzag) H:0.00(beat)] → Final=[0.000, 1.000, 0.000] → PWM=[  0, 254,   0]
+[2025-12-05 20:55:43] INFO: Window 4400: Inference=[114.000, 101.000, 85.000] Patterns=[L:0.00(heartbeat) M:0.03(zigzag) H:0.00(beat)] → Final=[0.000, 1.000, 0.000] → PWM=[  0, 254,   0]
+[2025-12-05 20:55:43] INFO: Progress: 17.2% (4400/25598 windows, 44.0s) - L=  0 M=254 H=  0
+[2025-12-05 20:55:43] INFO: Window 4450: Inference=[114.000, 101.000, 85.000] Patterns=[L:0.00(heartbeat) M:0.27(zigzag) H:0.00(beat)] → Final=[0.000, 1.000, 0.000] → PWM=[  0, 254,   0]
+[2025-12-05 20:55:44] INFO: Window 4500: Inference=[114.000, 101.000, 85.000] Patterns=[L:0.00(heartbeat) M:0.03(zigzag) H:0.30(beat)] → Final=[0.000, 1.000, 1.000] → PWM=[  0, 254, 254]
+[2025-12-05 20:55:44] INFO: Progress: 17.6% (4500/25598 windows, 45.0s) - L=  0 M=254 H=254
+[2025-12-05 20:55:44] INFO: Window 4550: Inference=[114.000, 101.000, 85.000] Patterns=[L:0.30(heartbeat) M:0.27(zigzag) H:0.00(beat)] → Final=[1.000, 1.000, 0.000] → PWM=[254, 254,   0]
+[2025-12-05 20:55:45] INFO: Window 4600: Inference=[114.000, 101.000, 85.000] Patterns=[L:0.00(heartbeat) M:0.03(zigzag) H:0.00(beat)] → Final=[0.000, 1.000, 0.000] → PWM=[  0, 254,   0]
+[2025-12-05 20:55:45] INFO: Progress: 18.0% (4600/25598 windows, 46.0s) - L=  0 M=254 H=  0
+[2025-12-05 20:55:45] INFO: Window 4650: Inference=[114.000, 101.000, 85.000] Patterns=[L:0.00(heartbeat) M:0.27(zigzag) H:0.00(beat)] → Final=[0.000, 1.000, 0.000] → PWM=[  0, 254,   0]
+[2025-12-05 20:55:46] INFO: Window 4700: Inference=[114.000, 101.000, 85.000] Patterns=[L:0.30(heartbeat) M:0.03(zigzag) H:0.00(beat)] → Final=[1.000, 1.000, 0.000] → PWM=[254, 254,   0]
+[2025-12-05 20:55:46] INFO: Progress: 18.4% (4700/25598 windows, 47.0s) - L=254 M=254 H=  0
+[2025-12-05 20:55:46] INFO: Window 4750: Inference=[114.000, 101.000, 85.000] Patterns=[L:0.00(heartbeat) M:0.27(zigzag) H:0.00(beat)] → Final=[0.000, 1.000, 0.000] → PWM=[  0, 254,   0]
+[2025-12-05 20:55:47] INFO: Window 4800: Inference=[114.000, 101.000, 85.000] Patterns=[L:0.00(heartbeat) M:0.03(zigzag) H:0.00(beat)] → Final=[0.000, 1.000, 0.000] → PWM=[  0, 254,   0]
+[2025-12-05 20:55:47] INFO: Progress: 18.8% (4800/25598 windows, 48.0s) - L=  0 M=254 H=  0
+[2025-12-05 20:55:47] INFO: Window 4850: Inference=[114.000, 101.000, 85.000] Patterns=[L:0.30(heartbeat) M:0.27(zigzag) H:0.00(beat)] → Final=[1.000, 1.000, 0.000] → PWM=[254, 254,   0]
+[2025-12-05 20:55:48] INFO: Window 4900: Inference=[114.000, 101.000, 85.000] Patterns=[L:0.00(heartbeat) M:0.03(zigzag) H:0.00(beat)] → Final=[0.000, 1.000, 0.000] → PWM=[  0, 254,   0]
+[2025-12-05 20:55:48] INFO: Progress: 19.1% (4900/25598 windows, 49.0s) - L=  0 M=254 H=  0
+[2025-12-05 20:55:48] INFO: Window 4950: Inference=[114.000, 101.000, 85.000] Patterns=[L:0.00(heartbeat) M:0.27(zigzag) H:0.00(beat)] → Final=[0.000, 1.000, 0.000] → PWM=[  0, 254,   0]
+[2025-12-05 20:55:49] INFO: Window 5000: Inference=[114.000, 101.000, 85.000] Patterns=[L:0.00(heartbeat) M:0.03(zigzag) H:0.00(beat)] → Final=[0.000, 1.000, 0.000] → PWM=[  0, 254,   0]
+[2025-12-05 20:55:49] INFO: Progress: 19.5% (5000/25598 windows, 50.0s) - L=  0 M=254 H=  0
+[2025-12-05 20:55:49] INFO: Window 5050: Inference=[114.000, 101.000, 85.000] Patterns=[L:0.00(heartbeat) M:0.27(zigzag) H:0.00(beat)] → Final=[0.000, 1.000, 0.000] → PWM=[  0, 254,   0]
+[2025-12-05 20:55:50] INFO: Window 5100: Inference=[114.000, 101.000, 85.000] Patterns=[L:0.00(heartbeat) M:0.03(zigzag) H:0.00(beat)] → Final=[0.000, 1.000, 0.000] → PWM=[  0, 254,   0]
+[2025-12-05 20:55:50] INFO: Progress: 19.9% (5100/25598 windows, 51.0s) - L=  0 M=254 H=  0
+[2025-12-05 20:55:50] INFO: Window 5150: Inference=[114.000, 101.000, 85.000] Patterns=[L:0.00(heartbeat) M:0.27(zigzag) H:0.00(beat)] → Final=[0.000, 1.000, 0.000] → PWM=[  0, 254,   0]
+[2025-12-05 20:55:51] INFO: Window 5200: Inference=[114.000, 101.000, 85.000] Patterns=[L:0.00(heartbeat) M:0.03(zigzag) H:0.00(beat)] → Final=[0.000, 1.000, 0.000] → PWM=[  0, 254,   0]
+[2025-12-05 20:55:51] INFO: Progress: 20.3% (5200/25598 windows, 52.0s) - L=  0 M=254 H=  0
+[2025-12-05 20:55:51] INFO: Window 5250: Inference=[114.000, 101.000, 85.000] Patterns=[L:0.00(heartbeat) M:0.27(zigzag) H:0.00(beat)] → Final=[0.000, 1.000, 0.000] → PWM=[  0, 254,   0]
+[2025-12-05 20:55:52] INFO: Window 5300: Inference=[114.000, 101.000, 85.000] Patterns=[L:0.30(heartbeat) M:0.03(zigzag) H:0.00(beat)] → Final=[1.000, 1.000, 0.000] → PWM=[254, 254,   0]
+[2025-12-05 20:55:52] INFO: Progress: 20.7% (5300/25598 windows, 53.0s) - L=254 M=254 H=  0
+[2025-12-05 20:55:52] INFO: Window 5350: Inference=[114.000, 101.000, 85.000] Patterns=[L:0.00(heartbeat) M:0.27(zigzag) H:0.00(beat)] → Final=[0.000, 1.000, 0.000] → PWM=[  0, 254,   0]
+[2025-12-05 20:55:53] INFO: Window 5400: Inference=[114.000, 101.000, 85.000] Patterns=[L:0.00(heartbeat) M:0.03(zigzag) H:0.00(beat)] → Final=[0.000, 1.000, 0.000] → PWM=[  0, 254,   0]
+[2025-12-05 20:55:53] INFO: Progress: 21.1% (5400/25598 windows, 54.0s) - L=  0 M=254 H=  0
+[2025-12-05 20:55:53] INFO: Window 5450: Inference=[114.000, 101.000, 85.000] Patterns=[L:0.00(heartbeat) M:0.27(zigzag) H:0.00(beat)] → Final=[0.000, 1.000, 0.000] → PWM=[  0, 254,   0]
+[2025-12-05 20:55:54] INFO: Window 5500: Inference=[114.000, 101.000, 85.000] Patterns=[L:0.00(heartbeat) M:0.03(zigzag) H:0.00(beat)] → Final=[0.000, 1.000, 0.000] → PWM=[  0, 254,   0]
+[2025-12-05 20:55:54] INFO: Progress: 21.5% (5500/25598 windows, 55.0s) - L=  0 M=254 H=  0
+[2025-12-05 20:55:54] INFO: Window 5550: Inference=[114.000, 101.000, 85.000] Patterns=[L:0.00(heartbeat) M:0.27(zigzag) H:0.00(beat)] → Final=[0.000, 1.000, 0.000] → PWM=[  0, 254,   0]
+[2025-12-05 20:55:55] INFO: Window 5600: Inference=[114.000, 101.000, 85.000] Patterns=[L:0.00(heartbeat) M:0.03(zigzag) H:0.00(beat)] → Final=[0.000, 1.000, 0.000] → PWM=[  0, 254,   0]
+[2025-12-05 20:55:55] INFO: Progress: 21.9% (5600/25598 windows, 56.0s) - L=  0 M=254 H=  0
+[2025-12-05 20:55:55] INFO: Window 5650: Inference=[114.000, 101.000, 85.000] Patterns=[L:0.30(heartbeat) M:0.27(zigzag) H:0.00(beat)] → Final=[1.000, 1.000, 0.000] → PWM=[254, 254,   0]
+[2025-12-05 20:55:56] INFO: Window 5700: Inference=[114.000, 101.000, 85.000] Patterns=[L:0.00(heartbeat) M:0.03(zigzag) H:0.00(beat)] → Final=[0.000, 1.000, 0.000] → PWM=[  0, 254,   0]
+[2025-12-05 20:55:56] INFO: Progress: 22.3% (5700/25598 windows, 57.0s) - L=  0 M=254 H=  0
+[2025-12-05 20:55:56] INFO: Window 5750: Inference=[114.000, 101.000, 85.000] Patterns=[L:0.00(heartbeat) M:0.27(zigzag) H:0.00(beat)] → Final=[0.000, 1.000, 0.000] → PWM=[  0, 254,   0]
+[2025-12-05 20:55:57] INFO: Window 5800: Inference=[114.000, 101.000, 85.000] Patterns=[L:0.00(heartbeat) M:0.03(zigzag) H:0.00(beat)] → Final=[0.000, 1.000, 0.000] → PWM=[  0, 254,   0]
+[2025-12-05 20:55:57] INFO: Progress: 22.7% (5800/25598 windows, 58.0s) - L=  0 M=254 H=  0
+[2025-12-05 20:55:57] INFO: Window 5850: Inference=[114.000, 101.000, 85.000] Patterns=[L:0.00(heartbeat) M:0.27(zigzag) H:0.00(beat)] → Final=[0.000, 1.000, 0.000] → PWM=[  0, 254,   0]
+[2025-12-05 20:55:58] INFO: Window 5900: Inference=[114.000, 101.000, 85.000] Patterns=[L:0.00(heartbeat) M:0.03(zigzag) H:0.00(beat)] → Final=[0.000, 1.000, 0.000] → PWM=[  0, 254,   0]
+[2025-12-05 20:55:58] INFO: Progress: 23.0% (5900/25598 windows, 59.0s) - L=  0 M=254 H=  0
+[2025-12-05 20:55:58] INFO: Window 5950: Inference=[114.000, 101.000, 85.000] Patterns=[L:0.30(heartbeat) M:0.27(zigzag) H:0.00(beat)] → Final=[1.000, 1.000, 0.000] → PWM=[254, 254,   0]
+[2025-12-05 20:55:59] INFO: Window 6000: Inference=[114.000, 101.000, 85.000] Patterns=[L:0.00(heartbeat) M:0.03(zigzag) H:0.00(beat)] → Final=[0.000, 1.000, 0.000] → PWM=[  0, 254,   0]
+[2025-12-05 20:55:59] INFO: Progress: 23.4% (6000/25598 windows, 60.0s) - L=  0 M=254 H=  0
+[2025-12-05 20:55:59] INFO: Window 6050: Inference=[114.000, 101.000, 85.000] Patterns=[L:0.00(heartbeat) M:0.27(zigzag) H:0.00(beat)] → Final=[0.000, 1.000, 0.000] → PWM=[  0, 254,   0]
+[2025-12-05 20:56:00] INFO: Window 6100: Inference=[114.000, 101.000, 85.000] Patterns=[L:0.00(heartbeat) M:0.03(zigzag) H:0.30(beat)] → Final=[0.000, 1.000, 1.000] → PWM=[  0, 254, 254]
+[2025-12-05 20:56:00] INFO: Progress: 23.8% (6100/25598 windows, 61.0s) - L=  0 M=254 H=254
+[2025-12-05 20:56:00] INFO: Window 6150: Inference=[114.000, 101.000, 85.000] Patterns=[L:0.30(heartbeat) M:0.27(zigzag) H:0.00(beat)] → Final=[1.000, 1.000, 0.000] → PWM=[254, 254,   0]
+[2025-12-05 20:56:01] INFO: Window 6200: Inference=[114.000, 101.000, 85.000] Patterns=[L:0.00(heartbeat) M:0.03(zigzag) H:0.00(beat)] → Final=[0.000, 1.000, 0.000] → PWM=[  0, 254,   0]
+[2025-12-05 20:56:01] INFO: Progress: 24.2% (6200/25598 windows, 62.0s) - L=  0 M=254 H=  0
+[2025-12-05 20:56:01] INFO: Window 6250: Inference=[114.000, 101.000, 85.000] Patterns=[L:0.00(heartbeat) M:0.27(zigzag) H:0.00(beat)] → Final=[0.000, 1.000, 0.000] → PWM=[  0, 254,   0]
+[2025-12-05 20:56:02] INFO: Window 6300: Inference=[114.000, 101.000, 85.000] Patterns=[L:0.30(heartbeat) M:0.03(zigzag) H:0.00(beat)] → Final=[1.000, 1.000, 0.000] → PWM=[254, 254,   0]
+[2025-12-05 20:56:02] INFO: Progress: 24.6% (6300/25598 windows, 63.0s) - L=254 M=254 H=  0
+[2025-12-05 20:56:02] INFO: Window 6350: Inference=[114.000, 101.000, 85.000] Patterns=[L:0.00(heartbeat) M:0.27(zigzag) H:0.00(beat)] → Final=[0.000, 1.000, 0.000] → PWM=[  0, 254,   0]
+[2025-12-05 20:56:03] INFO: Window 6400: Inference=[114.000, 101.000, 85.000] Patterns=[L:0.00(heartbeat) M:0.03(zigzag) H:0.00(beat)] → Final=[0.000, 1.000, 0.000] → PWM=[  0, 254,   0]
+[2025-12-05 20:56:03] INFO: Progress: 25.0% (6400/25598 windows, 64.0s) - L=  0 M=254 H=  0
+[2025-12-05 20:56:03] INFO: Window 6450: Inference=[114.000, 101.000, 85.000] Patterns=[L:0.00(heartbeat) M:0.27(zigzag) H:0.00(beat)] → Final=[0.000, 1.000, 0.000] → PWM=[  0, 254,   0]
+[2025-12-05 20:56:04] INFO: Window 6500: Inference=[114.000, 101.000, 85.000] Patterns=[L:0.00(heartbeat) M:0.03(zigzag) H:0.00(beat)] → Final=[0.000, 1.000, 0.000] → PWM=[  0, 254,   0]
+[2025-12-05 20:56:04] INFO: Progress: 25.4% (6500/25598 windows, 65.0s) - L=  0 M=254 H=  0
+[2025-12-05 20:56:04] INFO: Window 6550: Inference=[114.000, 101.000, 85.000] Patterns=[L:0.00(heartbeat) M:0.27(zigzag) H:0.00(beat)] → Final=[0.000, 1.000, 0.000] → PWM=[  0, 254,   0]
+[2025-12-05 20:56:05] INFO: Window 6600: Inference=[114.000, 101.000, 85.000] Patterns=[L:0.00(heartbeat) M:0.03(zigzag) H:0.30(beat)] → Final=[0.000, 1.000, 1.000] → PWM=[  0, 254, 254]
+[2025-12-05 20:56:05] INFO: Progress: 25.8% (6600/25598 windows, 66.0s) - L=  0 M=254 H=254
+[2025-12-05 20:56:05] INFO: Window 6650: Inference=[114.000, 101.000, 85.000] Patterns=[L:0.30(heartbeat) M:0.27(zigzag) H:0.00(beat)] → Final=[1.000, 1.000, 0.000] → PWM=[254, 254,   0]
+[2025-12-05 20:56:06] INFO: Window 6700: Inference=[114.000, 101.000, 85.000] Patterns=[L:0.00(heartbeat) M:0.03(zigzag) H:0.00(beat)] → Final=[0.000, 1.000, 0.000] → PWM=[  0, 254,   0]
+[2025-12-05 20:56:06] INFO: Progress: 26.2% (6700/25598 windows, 67.0s) - L=  0 M=254 H=  0
+[2025-12-05 20:56:06] INFO: Window 6750: Inference=[114.000, 101.000, 85.000] Patterns=[L:0.00(heartbeat) M:0.27(zigzag) H:0.00(beat)] → Final=[0.000, 1.000, 0.000] → PWM=[  0, 254,   0]
+[2025-12-05 20:56:07] INFO: Window 6800: Inference=[114.000, 101.000, 85.000] Patterns=[L:0.00(heartbeat) M:0.03(zigzag) H:0.00(beat)] → Final=[0.000, 1.000, 0.000] → PWM=[  0, 254,   0]
+[2025-12-05 20:56:07] INFO: Progress: 26.6% (6800/25598 windows, 68.0s) - L=  0 M=254 H=  0
+[2025-12-05 20:56:07] INFO: Window 6850: Inference=[114.000, 101.000, 85.000] Patterns=[L:0.00(heartbeat) M:0.27(zigzag) H:0.00(beat)] → Final=[0.000, 1.000, 0.000] → PWM=[  0, 254,   0]
+[2025-12-05 20:56:08] INFO: Window 6900: Inference=[114.000, 101.000, 85.000] Patterns=[L:0.00(heartbeat) M:0.03(zigzag) H:0.00(beat)] → Final=[0.000, 1.000, 0.000] → PWM=[  0, 254,   0]
+[2025-12-05 20:56:08] INFO: Progress: 27.0% (6900/25598 windows, 69.0s) - L=  0 M=254 H=  0
+[2025-12-05 20:56:08] INFO: Window 6950: Inference=[114.000, 101.000, 85.000] Patterns=[L:0.30(heartbeat) M:0.27(zigzag) H:0.00(beat)] → Final=[1.000, 1.000, 0.000] → PWM=[254, 254,   0]
+[2025-12-05 20:56:09] INFO: Window 7000: Inference=[114.000, 101.000, 85.000] Patterns=[L:0.00(heartbeat) M:0.03(zigzag) H:0.00(beat)] → Final=[0.000, 1.000, 0.000] → PWM=[  0, 254,   0]
+[2025-12-05 20:56:09] INFO: Progress: 27.3% (7000/25598 windows, 70.0s) - L=  0 M=254 H=  0
+[2025-12-05 20:56:09] INFO: PAUSED - Press SPACE to resume, S to stop
+[2025-12-05 20:56:12] INFO: Stop requested by user
+[2025-12-05 20:56:12] INFO: 
+Stopping motors...
+[2025-12-05 20:56:12] INFO: Serial connection closed
+[2025-12-05 20:56:12] INFO: 
+============================================================
+[2025-12-05 20:56:12] INFO: GENERATING RUNTIME PLOTS
+[2025-12-05 20:56:12] INFO: ============================================================
+[2025-12-05 20:56:12] INFO: 
+============================================================
+[2025-12-05 20:56:12] INFO: INFERENCE COMPLETE
+[2025-12-05 20:56:12] INFO: ============================================================
+[2025-12-05 20:56:12] INFO: Total windows processed: 7034
+[2025-12-05 20:56:12] INFO: All plots saved to: plots/inference/
+[2025-12-05 20:56:12] INFO:   - song1_20251205_205430_waveform.png
+[2025-12-05 20:56:12] INFO:   - song1_20251205_205430_melspectrogram.png
+[2025-12-05 20:56:12] INFO:   - song1_20251205_205430_sample_windows.png
+[2025-12-05 20:56:12] INFO:   - song1_20251205_205430_predictions.png
+[2025-12-05 20:56:12] INFO:   - song1_20251205_205430_motor_pwm.png
+[2025-12-05 20:56:12] INFO: Log file saved to: logs/inference_20251205_205430.log
+[2025-12-05 20:56:12] INFO: 
+
+# ============================================================
+# Ended: 2025-12-05 20:56:12
